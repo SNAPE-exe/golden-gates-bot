@@ -2,10 +2,11 @@
 {
   "name": "golden-gates-bot",
   "version": "1.0.0",
-  "description": "Golden Gates Discord Management Bot",
+  "description": "Golden Gates Premium Discord Management Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "engines": {
     "node": ">=20.0.0"
